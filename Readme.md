@@ -1,8 +1,13 @@
-# Software Para Gerenciamento de Barbearia 
+# BarberPro
+
+Esse projeto consiste em um systema Python + Django desenvolvido na disciplina de Sistemas Corporativos durante a Graduação em Sistemas para Internet no IFRN Campus Canguaretama. O Objetivo dessa aplicação é o auxílio de barbeiros locais no agendamento de seus clientes, reduzindo filias e taxa de desistência por espera prolongada. 
+
+## Imagens do projeto
+As principais telas do projeto estão representadas na pasta `/imagens-projeto`.
 
 ## Como usar
 
-> Descompacte as fontes ou clone o repositório. Depois de obter o código, abra um terminal e navegue até o diretório de trabalho, com o código-fonte do produto.
+Descompacte as fontes ou clone o repositório. Depois de obter o código, abra um terminal e navegue até o diretório de trabalho, com o código-fonte do produto.
 
 ```bash
 $ # Obter o código
@@ -88,7 +93,6 @@ O projeto é codificado usando uma estrutura simples e intuitiva apresentada aba
    |-- .env                                 # Injeta configuração via ambiente
    |-- manage.py                            # Inicia o aplicativo - Script padrão do Django
    |
-   |-- ************************************************************************
 ```
 
 <br />
@@ -128,9 +132,9 @@ $ cd apps/static/assets
 **Etapa #3** - Instale os módulos (isso criará um diretório `node_modules` clássico)
 
 ```bash
-instalação de $npm
+$ npm install
 // OU
-$ fios
+$ yarn install
 ```
 
 <br />
